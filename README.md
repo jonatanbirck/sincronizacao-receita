@@ -1,11 +1,11 @@
 ## 📙 Sumário
-- [Projeto](#projeto)
-- [Tecnologias](#tecnologias)
-- [Como executar](#configuração)
+- [💻 Projeto](#projeto)
+- [🚀 Tecnologias](#tecnologias)
+- [⚙ Como executar?](#configuração)
     - [Ambiente](#ambiente)
     - [Dicas](#dicas)
-- [Ilustrações](#ilustrações)
-- [Fluxo de desenvolvimento](#FLuxo de desenvolvimento)
+- [📷 Ilustrações](#ilustrações)
+- [👷 Fluxo de desenvolvimento](#Fluxo de desenvolvimento)
 
 ## 💻 Projeto
 Um projeto de demonstração visando construir um cenário de criação de contas via Receita Federal. Realizando processamento de arquivos CSV utilizando Spring Boot.
@@ -15,7 +15,7 @@ Um projeto de demonstração visando construir um cenário de criação de conta
 ✔️Spring Boot 2.6.7
 ✔️IntelliJ IDEA
 
-## ⚙ Configuração
+## ⚙ Como executar?
 
 ### Ambiente
 Não é necessária nenhuma configuração adicional.
@@ -33,7 +33,7 @@ Existem dois tipos de argumentos mapeados:
 ![ilustration](src/main/resources/info/ilustration.gif)
 ![memory](src/main/resources/info/memory100000rows.jpg)
 
-## 👷 FLuxo de desenvolvimento
+## 👷 Fluxo de desenvolvimento
 
 ### Cenário de Negócio
 Todo dia útil um colaborador da empresa recebe e organiza as informações de contas para enviar ao Banco Central.
