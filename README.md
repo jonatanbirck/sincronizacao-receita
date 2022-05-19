@@ -1,11 +1,12 @@
 ## 📙 Sumário
 - [💻 Projeto](#projeto)
 - [🚀 Tecnologias](#tecnologias)
-- [⚙ Como executar?](#configuração)
+- [⚙ Como executar?](#como executar?)
     - [Ambiente](#ambiente)
     - [Dicas](#dicas)
 - [📷 Ilustrações](#ilustrações)
-- [👷 Fluxo de desenvolvimento](#Fluxo de desenvolvimento)
+- [👷 Fluxo de desenvolvimento](#fluxo de desenvolvimento)
+
 
 ## 💻 Projeto
 Um projeto de demonstração visando construir um cenário de criação de contas via Receita Federal. Realizando processamento de arquivos CSV utilizando Spring Boot.
