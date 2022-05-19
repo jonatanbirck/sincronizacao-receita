@@ -1,12 +1,10 @@
 ## 📙 Sumário
-- [💻 Projeto](#projeto)
-- [🚀 Tecnologias](#tecnologias)
-- [⚙ Como executar?](#como executar?)
+- [💻 Projeto](#-projeto)
+- [🚀 Tecnologias](#-tecnologias)
+- [⚙ Como executar?](#-como-executar)
     - [Ambiente](#ambiente)
-    - [Dicas](#dicas)
-- [📷 Ilustrações](#ilustrações)
-- [👷 Fluxo de desenvolvimento](#fluxo de desenvolvimento)
-
+- [📷 Ilustrações](#-ilustraes)
+- [👷 Fluxo de desenvolvimento](#-fluxo-de-desenvolvimento)
 
 ## 💻 Projeto
 Um projeto de demonstração visando construir um cenário de criação de contas via Receita Federal. Realizando processamento de arquivos CSV utilizando Spring Boot.
@@ -24,11 +22,11 @@ Pode ser executado standalone, acessando a pasta "out\artifacts" e executando: j
 
 Existem dois tipos de argumentos mapeados:
 - Envia e atualiza contas no serviço da Receita Federal (fake): updateAccounts=${caminhoArquivo}
-- Exemplo: java -jar sincronizacao-receita.jar updateAccounts=C:\Users\jonat\Downloads\Backend\200rows.csv
+  - Exemplo: java -jar sincronizacao-receita.jar updateAccounts=C:\Users\jonat\Downloads\Backend\200rows.csv
 
 
 - Criar um arquivo .csv com dados fakes apenas para teste utilizando: java -jar sincronizacao-receita.jar createFakeCsv=${quatidadeLinhas},${caminhoArquivo}
-- Exemplo: java -jar sincronizacao-receita.jar createFakeCsv=200,C:\Users\jonat\Downloads\Backend\200rows.csv
+  - Exemplo: java -jar sincronizacao-receita.jar createFakeCsv=200,C:\Users\jonat\Downloads\Backend\200rows.csv
 
 ## 📷 Ilustrações
 ![ilustration](src/main/resources/info/ilustration.gif)
