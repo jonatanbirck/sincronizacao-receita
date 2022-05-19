@@ -1,25 +1,18 @@
 package com.jonatanbirck.sincronizacaoreceita.util;
 
+import com.jonatanbirck.sincronizacaoreceita.TestUtils;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.net.URI;
-import java.nio.file.Path;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class FileUtilsTests {
 
-    private static final Path basePath = Path.of("src","test","resources");
-
-    private static URI withBasePath(String path) {
-        return basePath.resolve(path).toUri();
-    }
-
     @Test
     void checkIfIsCsvFile() {
         //given
-        final File csvFile = new File(withBasePath("example.csv"));
+        final File csvFile = new File(TestUtils.withBasePath("example.csv"));
 
         //when
         final boolean expect = FileUtils.isCsvFile(csvFile);
@@ -31,7 +24,7 @@ public class FileUtilsTests {
     @Test
     void checkIfNotExistsCsvFile() {
         //given
-        final File csvFile = new File(withBasePath("exampleNotExists.csv"));
+        final File csvFile = new File(TestUtils.withBasePath("exampleNotExists.csv"));
 
         //when
         final boolean expect = FileUtils.isCsvFile(csvFile);
@@ -55,7 +48,7 @@ public class FileUtilsTests {
     @Test
     void checkIfCsvFileIsDirectory() {
         //given
-        final File csvFile = new File(basePath.toUri());
+        final File csvFile = new File(TestUtils.BASE_PATH.toUri());
 
         //when
         final boolean expect = FileUtils.isCsvFile(csvFile);
